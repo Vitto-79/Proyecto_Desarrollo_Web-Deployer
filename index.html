@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/00b19b2383.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>G20</title>
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- Seccion Inicio -->
+    <section id="inicio">
+      <div class="contenido">
+        <header>
+          <div class="contenido-header">
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a
+                    href="#inicio"
+                    class="seleccionado"
+                    onclick="seleccionar(this)"
+                    >INICIO</a
+                  >
+                </li>
+                <li>
+                  <a href="#sobrenosotros" onclick="seleccionar(this)"
+                    >SOBRE NOSOTROS</a
+                  >
+                </li>
+                <li>
+                  <a href="#productos" onclick="seleccionar(this)">PRODUCTOS</a>
+                </li>
+                <li>
+                  <a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a>
+                </li>
+                <li>
+                  <a href="#ubicacion" onclick="seleccionar(this)">UBICACION</a>
+                </li>
+                <li>
+                  <a href="#contacto" onclick="seleccionar(this)">CONTACTO</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="redes">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+            </div>
+          </div>
+        </header>
+        <div class="presentacion">
+          <p class="bienvenida">Bienvenidos</p>
+          <h2>Somos <span>G20</span> Repuestos & Accesorios</h2>
+          <p class="descripcion">Asesoramiento y Atención Personalizada</p>
+          <a href="#servicios">Ir a Servicios</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION       SOBRE NOSOTROS -->
+
+    <section id="sobrenosotros">
+      <div class="contenedor-foto">
+        <img src="/assets/css/imagenes/pic12.jpg" alt="" />
+      </div>
+      <div class="sobrenosotros">
+        <p class="titulo-seccion">Sobre Nosotros</p>
+        <h2>Hola, Somos <span>G20</span></h2>
+        <h3>Repuestos & Accesorios</h3>
+        <p>
+          Desde el año 2001. nos dedicamos a la venta de Repuestos y Accesorios
+          automotor especializados en Frenos y Embragues. Unimos nuestra
+          experiencia en el rubro con tecnología de última vanguardia, lo que
+          nos permite asesorarlo sobre la opción mas conveniente al momento de
+          adquirir un producto o servicio. Respeto, es el motor que nos impulsa
+          para aceptar con orgullo y responsabilidad, los retos que nos impone
+          el día a día. Asumimos el firme compromiso de superar todos los
+          objetivos para ponernos al servicio de nuestros clientes.
+        </p>
+        <a href="#">Descargar Catalogo</a>
+      </div>
+    </section>
+
+    <!--   SECCION PRODUCTOS   -->
+
+    <section id="productos">
+      <h3 class="titulo-seccion">PRODUCTOS CON MAYOR DEMANDA</h3>
+      <div class="fila">
+        <div class="producto">
+          <img src="assets/css/imagenes/pic2.jpg" alt="" />
+          <h4>Kit Embrague</h4>
+          <hr />
+          <ul class="productos-tag">
+            <li>Todas las marcas</li>
+            <li>Garantia</li>
+            <li>20% de descuento en efectivo</li>
+          </ul>
+          <p>
+            Disponemos de toda la línea de las mejores marcas de embrague
+            Luk,Sasch, Frasle y LPR.
+          </p>
+        </div>
+        <div class="producto">
+          <img src="assets/css/imagenes/pic3.jpg" alt="" />
+          <h4>Crapodinas</h4>
+          <hr />
+          <ul class="productos-tag">
+            <li>Todas las marcas</li>
+            <li>Garantia</li>
+            <li>10% de descuento en efectivo</li>
+          </ul>
+          <p>Las mejores crapodinas, importadas de USA y la Unión Europea.</p>
+        </div>
+        <div class="producto">
+          <img src="assets/css/imagenes/pic4.jpg" alt="" />
+          <h4>Discos de freno</h4>
+          <hr />
+          <ul class="productos-tag">
+            <li>Todas las marcas</li>
+            <li>Garantia</li>
+            <li>20% de descuento en efectivo</li>
+          </ul>
+          <p>
+            En discos de freno disponemos de las líneas Stark, Valeo, Bosch,
+            Ate, TRW y Zimmerman.
+          </p>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="producto">
+          <img src="assets/css/imagenes/pic5.jpg" alt="" />
+          <h4>Pastillas de freno</h4>
+          <hr />
+          <ul class="productos-tag">
+            <li>Todas las marcas</li>
+            <li>Garantia</li>
+            <li>15% de descuento en efectivo</li>
+          </ul>
+          <p>
+            Disponemos de la línea de Pastillas Mazda, una de las mejores a
+            nivel mundial.
+          </p>
+        </div>
+        <div class="producto">
+          <img src="assets/css/imagenes/pic6.jpg" alt="" />
+          <h4>Sistemas ABS</h4>
+          <hr />
+          <ul class="productos-tag">
+            <li>Todas las marcas</li>
+            <li>Garantia</li>
+            <li>20% de descuento en efectivo</li>
+          </ul>
+          <p>ABS Bosch,Delphi y Continental.</p>
+        </div>
+        <div class="producto">
+          <img src="assets/css/imagenes/pic7.jpg" alt="" />
+          <h4>Liquido de frenos</h4>
+          <hr />
+          <ul class="productos-tag">
+            <li>Todas las marcas</li>
+            <li>Garantia</li>
+            <li>5% de descuento en efectivo</li>
+          </ul>
+          <p>Bosch, Valeo, Hella, Castrol,Brembo,Motul y TRW</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- seccion servicios -->
+
+    <section id="servicios">
+      <h3 class="titulo-seccion">NUESTROS SERVICIOS</h3>
+      <div class="fila">
+        <div class="servicio">
+          <div class="overlay"></div>
+          <img src="assets/css/imagenes/pic9.jpg" alt="" />
+          <div class="info">
+            <h4>Nombre del servicio</h4>
+            <p>Descripcion</p>
+          </div>
+        </div>
+        <div class="servicio">
+          <div class="overlay"></div>
+          <img src="assets/css/imagenes/pic9.jpg" alt="" />
+          <div class="info">
+            <h4>Nombre del servicio</h4>
+            <p>Descripcion</p>
+          </div>
+        </div>
+        <div class="servicio">
+          <div class="overlay"></div>
+          <img src="assets/css/imagenes/pic9.jpg" alt="" />
+          <div class="info">
+            <h4>Nombre del servicio</h4>
+            <p>Descripcion</p>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="servicio">
+          <div class="overlay"></div>
+          <img src="assets/css/imagenes/pic9.jpg" alt="" />
+          <div class="info">
+            <h4>Nombre del servicio</h4>
+            <p>Descripcion</p>
+          </div>
+        </div>
+        <div class="servicio">
+          <div class="overlay"></div>
+          <img src="assets/css/imagenes/pic9.jpg" alt="" />
+          <div class="info">
+            <h4>Nombre del servicio</h4>
+            <p>Descripcion</p>
+          </div>
+        </div>
+        <div class="servicio">
+          <div class="overlay"></div>
+          <img src="assets/css/imagenes/pic9.jpg" alt="" />
+          <div class="info">
+            <h4>Nombre del servicio</h4>
+            <p>Descripcion</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--       SECCION UBICACION      -->
+
+    <section id="ubicacion">
+      <h3 class="titulo-seccion">DONDE ENCONTRARNOS</h3>
+      <div class="google-maps">
+        <iframe
+          class="mapa"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.173704527763!2d-58.49477148476929!3d-34.65631858046261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc90e9d9a5b41%3A0x625bbda3f988ee29!2sMiralla%201865%2C%20C1440%20CABA!5e0!3m2!1sen!2sar!4v1620263900089!5m2!1sen!2sar"
+          width="100%"
+          height="350"
+          style="border: 20px"
+          allowf=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+
+    <!--     SECCION CONTACTO     -->
+    <section id="contacto">
+      <h3 class="titulo-seccion">Contactanos ahora</h3>
+      <div class="contenedor-form">
+        <form action="">
+          <div class="fila mitad">
+            <input
+              type="text"
+              placeholder="Nombre Completo *"
+              class="input-mitad"
+            />
+            <input
+              type="email"
+              placeholder="Dirección de Email"
+              class="input-mitad"
+            />
+          </div>
+          <div class="fila">
+            <input type="text" placeholder="Tema..." class="input-full" />
+          </div>
+          <div class="fila">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Tu Mensaje..."
+              class="input-full"
+            ></textarea>
+          </div>
+
+          <input type="submit" value="Enviar Mensaje" class="btn-enviar" />
+        </form>
+      </div>
+    </section>
+
+    <!-- seccion footer -->
+    <footer>
+      <p>copyright &copy; 2023 G20 REPUESTOS. designed by G20</p>
+      <div class="redes">
+        <a href="https://www.facebook.com/tu-pagina-de-Facebook"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://twitter.com/tu-cuenta-de-Twitter"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com/tu-cuenta-de-Instagram"
+          ><i class="fa-brands fa-instagram-square"></i
+        ></a>
+      </div>
+    </footer>
+
+    <!-- aqui va el script.js -->
+    <script src="script.js"></script>
+  </body>
+</html>
